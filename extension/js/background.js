@@ -35,7 +35,7 @@ chrome.runtime.onMessage.addListener((message) => {
     return null;
   }
   if (message == "changeLangToAr") {
-    chrome.tabs.query({active: true, lastFocusedWindow: true}, (tabs) => {
+    chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
       let tab = tabs[0];
       let arUrl = changeLangToAr(tab.url);
       if (arUrl != tab.url) {
