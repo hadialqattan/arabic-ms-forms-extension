@@ -1,0 +1,35 @@
+{
+    "name": "ArabicMsFroms",
+    "version": "0.0.1",
+    "description": "A browser extension to change the display language of Microsoft Forms to Arabic!",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://forms.office.com/Pages/ResponsePage.aspx?*",
+                "https://forms.office.com/Pages/ResponseDetailPage.aspx?*"
+            ],
+            "js": [
+                "js/content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_title": "ArabicMsFroms"
+    },
+    "icons": {
+        "16": "images/16px.png",
+        "48": "images/48px.png",
+        "128": "images/128px.png"
+    },
+    "manifest_version": 2
+}
