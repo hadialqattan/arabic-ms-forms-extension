@@ -1,5 +1,5 @@
 {
-    "name": "ArabicMsFroms",
+    "name": "ArabicMsForms",
     "version": "0.0.1",
     "description": "A cross-browser extension to change the display language of Microsoft Forms to Arabic!",
     "permissions": [
@@ -24,7 +24,7 @@
         }
     ],
     "browser_action": {
-        "default_title": "ArabicMsFroms"
+        "default_title": "ArabicMsForms"
     },
     "icons": {
         "16": "images/16px.png",
