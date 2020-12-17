@@ -8,6 +8,11 @@ Now this can be installed manually in both [Google Chrome](https://medium.com/@F
 
 **Soon** this extension will be avilable in both [Google Chrome](https://chrome.google.com/webstore/category/extensions) and [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/) stores.
 
+# Usage
+After the installation, the extension will automatically add ```lang=ar``` to the proper Microsoft Forms' URLs.
+
+To disable the extension from working for a certain time, just press its icon (the icon will appear in black & white).
+
 # FAQ
 
 ## Why this exists?
