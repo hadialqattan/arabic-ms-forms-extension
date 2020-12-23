@@ -4,9 +4,9 @@ A cross-browser extension to change the display language of Microsoft Forms to A
 
 # Installation
 
-Now this can be installed manually in both [Google Chrome](https://medium.com/@FGrante/how-to-install-a-chrome-extension-without-using-the-chrome-web-store-31902c780034) and [Mozilla Firefox](https://www.ghacks.net/2015/04/19/how-to-install-firefox-add-ons-directly-on-github/).
-
-**Soon** this extension will be avilable in both [Google Chrome](https://chrome.google.com/webstore/category/extensions) and [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/) stores.
+- [Google Chrome Extensions WebStore](https://chrome.google.com/webstore/detail/arabicmsforms/ojkgdfdcnecnkndghddcpmdbbdedeocd)
+- [Mozilla Firefox Add-ons Store](https://addons.mozilla.org/en-US/firefox/addon/arabicmsforms/) 
+- [Microsoft Edge Add-ons Store](https://microsoftedge.microsoft.com/addons/detail/arabicmsforms/anfogchmdlmfclgijpaljcnaceiameej)
 
 # Usage
 After the installation, the extension will automatically add ```lang=ar``` to the proper Microsoft Forms' URLs.
