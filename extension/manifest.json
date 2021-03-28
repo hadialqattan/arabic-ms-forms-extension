@@ -1,6 +1,6 @@
 {
     "name": "ArabicMsForms",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A cross-browser extension to change the display language of Microsoft Forms to Arabic!",
     "permissions": [
         "tabs",
@@ -16,7 +16,9 @@
         {
             "matches": [
                 "https://forms.office.com/Pages/ResponsePage.aspx?*",
-                "https://forms.office.com/Pages/ResponseDetailPage.aspx?*"
+                "https://forms.office.com/pages/responsepage.aspx?*",
+                "https://forms.office.com/Pages/ResponseDetailPage.aspx?*",
+                "https://forms.office.com/pages/responsedetailpage.aspx?*"
             ],
             "js": [
                 "js/content.js"
