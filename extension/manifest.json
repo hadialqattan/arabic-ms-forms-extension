@@ -1,37 +1,37 @@
 {
-    "name": "ArabicMsForms",
-    "version": "0.0.2",
-    "description": "A cross-browser extension to change the display language of Microsoft Forms to Arabic!",
-    "permissions": [
-        "tabs",
-        "activeTab"
+  "name": "ArabicMsForms",
+  "version": "0.0.2",
+  "description": "A cross-browser extension to change the display language of Microsoft Forms to Arabic!",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
     ],
-    "background": {
-        "scripts": [
-            "js/background.js"
-        ],
-        "persistent": false
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://forms.office.com/Pages/ResponsePage.aspx?*",
-                "https://forms.office.com/pages/responsepage.aspx?*",
-                "https://forms.office.com/Pages/ResponseDetailPage.aspx?*",
-                "https://forms.office.com/pages/responsedetailpage.aspx?*"
-            ],
-            "js": [
-                "js/content.js"
-            ]
-        }
-    ],
-    "browser_action": {
-        "default_title": "ArabicMsForms"
-    },
-    "icons": {
-        "16": "images/16px.png",
-        "48": "images/48px.png",
-        "128": "images/128px.png"
-    },
-    "manifest_version": 2
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://forms.office.com/Pages/ResponsePage.aspx?*",
+        "https://forms.office.com/pages/responsepage.aspx?*",
+        "https://forms.office.com/Pages/ResponseDetailPage.aspx?*",
+        "https://forms.office.com/pages/responsedetailpage.aspx?*"
+      ],
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_title": "ArabicMsForms"
+  },
+  "icons": {
+    "16": "images/16px.png",
+    "48": "images/48px.png",
+    "128": "images/128px.png"
+  },
+  "manifest_version": 2
 }
