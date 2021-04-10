@@ -46,7 +46,7 @@ If you have a feature request, feel free to [open an issue](https://github.com/h
 
 My school tests are usually written in Arabic (RTL language) while I prefer to set my browser's language to English (which cause readability issues) while Microsoft Forms doesn't have an easy way to change its language, instead, I have to change the browser's language to change Microsoft Forms language!!!
 
-After searching for a while I found [this official page](https://support.microsoft.com/en-us/office/language-settings-for-microsoft-forms-b282f9aa-0fe4-4290-b1e1-827a8a35ac27) says that I can change the interface language by adding a query param to the URL which is `lang=ar` (in my case), so I've created this extension to do that automatically.
+After searching for a while I found [this official page](https://support.microsoft.com/en-us/office/language-settings-for-microsoft-forms-b282f9aa-0fe4-4290-b1e1-827a8a35ac27) says that I can change the interface language by adding a query param to the URL which is `lang=ar` (in my case), so I've created this extension to automate the process.
 
 ### Why you didn't create a popup panel to choose any language instead of hardcoding the Arabic?
 
