@@ -30,7 +30,7 @@
 
 ## Usage
 
-After the installation, the extension will automatically add `lang=ar` to the proper Microsoft Forms' URLs.
+After installing it, the extension will automatically add `lang=ar` to the proper Microsoft Forms' URLs.
 
 To disable the extension from working for a certain amount of time, you only need to press its icon (the icon will appear in black & white), same for re-enabling.
 
