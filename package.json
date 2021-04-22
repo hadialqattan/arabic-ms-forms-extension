@@ -1,0 +1,33 @@
+{
+  "name": "arabic-ms-forms-extension",
+  "version": "1.0.0",
+  "description": "A cross-browser extension to change the display language of Microsoft Forms to Arabic!",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadialqattan/arabic-ms-forms-extension.git"
+  },
+  "author": "Hadi Alqattan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hadialqattan/arabic-ms-forms-extension/issues"
+  },
+  "homepage": "https://github.com/hadialqattan/arabic-ms-forms-extension#readme",
+  "scripts": {
+    "start": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "^8.1.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "lint-staged": {
+    "*.{js,css,md,html,json,yml,yaml}": "prettier --write"
+  }
+}
