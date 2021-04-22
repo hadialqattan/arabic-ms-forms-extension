@@ -1,5 +1,5 @@
 <h1 align="center" style="position: relative;">
-    <img width="200" src="./extension/images/128px.png"/><br>
+    <img width="200" src="./src/icons/icon128.png"/><br>
     ArabicMsForms
 </h1>
 
@@ -8,10 +8,12 @@
 </h4>
 
 <p align="center">
+  <a href="https://github.com/hadialqattan/arabic-ms-forms-extension/actions/workflows/release.yml">
+    <img alt="Build status" src="https://github.com/hadialqattan/arabic-ms-forms-extension/actions/workflows/release.yml/badge.svg">
+  </a>
 	<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/hadialqattan/arabic-ms-forms-extension">
     <a href="https://deepscan.io/dashboard#view=project&tid=13457&pid=16635&bid=361032"><img src="https://deepscan.io/api/teams/13457/projects/16635/branches/361032/badge/grade.svg" alt="DeepScan grade">
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hadialqattan/arabic-ms-forms-extension">
-    <img alt="GitHub" src="https://img.shields.io/github/license/hadialqattan/no-darkreader">
+  <img alt="GitHub" src="https://img.shields.io/github/license/hadialqattan/arabic-ms-forms-extension">
 </p>
 
 <p align="center">
